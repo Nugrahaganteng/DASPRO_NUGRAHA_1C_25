@@ -4,7 +4,7 @@ public class tugas2_25 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 
-        // Deklarasi variabel
+        // Variabel
         double panjangTanah;
         double lebarTanah;
         double diameterKolam;
@@ -16,16 +16,16 @@ public class tugas2_25 {
         double luasSisa;
 
         // Input
-        System.out.print("Masukkan panjang tanah (m): ");
+        System.out.print("Panjang tanah: ");
         panjangTanah = input.nextDouble();
 
-        System.out.print("Masukkan lebar tanah (m): ");
+        System.out.print("Lebar tanah: ");
         lebarTanah = input.nextDouble();
 
-        System.out.print("Masukkan diameter kolam ikan (m): ");
+        System.out.print("Diameter kolam: ");
         diameterKolam = input.nextDouble();
 
-        System.out.print("Masukkan sisi taman bunga (m): ");
+        System.out.print("Sisi taman: ");
         sisiTaman = input.nextDouble();
 
         // Proses
@@ -36,10 +36,10 @@ public class tugas2_25 {
         luasSisa = luasTanah - luasKolam - luasTaman;
 
         // Output
-        System.out.println("Luas tanah keseluruhan : " + luasTanah + " m2");
-        System.out.println("Luas kolam ikan         : " + luasKolam + " m2");
-        System.out.println("Luas taman bunga        : " + luasTaman + " m2");
-        System.out.println("Luas tanah tidak digunakan: " + luasSisa + " m2");
+        System.out.println("Luas tanah: " + luasTanah + " m2");
+        System.out.println("Luas kolam: " + luasKolam + " m2");
+        System.out.println("Luas taman: " + luasTaman + " m2");
+        System.out.println("Sisa luas: " + luasSisa + " m2");
 
         input.close();
     }
