@@ -20,6 +20,7 @@ public class TiketBioskop25 {
                 System.out.println("Jumlah tiket tidak valid. Masukkan lagi!");
                 continue;
             }
+            
             if (jumlah == 0) {
                 break;
             }
